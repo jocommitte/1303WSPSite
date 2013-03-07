@@ -1,9 +1,17 @@
+
+
+* {
+	margin:0;
+	padding:0;
+}
 body {
 	margin: 0;
 	padding: 0;
 	width:100%;
 	background: url('images/diamond2.png') top left;
 	height: 100%;
+		background-color:rgba(255, 255, 255, .3);
+
 }
 header {
 	width: 100%;
@@ -11,36 +19,55 @@ header {
 	padding: 0;
 }
 .universal_wrap {
-	width: 960px;
+	width: 80%;
 	margin: 0 auto;
 	overflow: hidden;
-	text-align: center;
 }
 
 #logo {
 	float: left;
-	margin-right: 20px;
-	padding: 20px 0 15px;
+	margin-right:-.5em;
+	margin-top:40px;
+	
+
 }
 .logo_img {
 	overflow: hidden;
-	width: 90px;
+	width: 40%;
+
 }
 #brand_name {
 	float: left;
-	text-align: left;
+	text-align: right;
 	margin-top: 100px;
 }
 #brand_name > h2 {
 	font-size: 12px;
-	margin-bottom:30px;
+
 }
 #wrapper {
-	width: 960px;
+	width: 90%;
 	margin:0 auto;
+	overflow:hidden;
 }
-section > ul {
+.info{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #282828;
+	border-bottom: 3px solid #cccccc;
+	padding-top: 10px;
+	padding-left: 1em;
+}
+.info > ul {
 	list-style-type: none;
+	margin-left:50px;
+	color:white;
+
+
+}
+.info >ul>li {
+	padding:5px;
 }
 b {
 	color: gray;
@@ -59,6 +86,7 @@ footer {
 	height: auto;
 	margin: 0 auto;
 	padding-top: 40px;
+	padding-bottom:20px;
 	background-color: rgba(250, 250, 250, .1);
 }
 
