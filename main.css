@@ -1,0 +1,106 @@
+
+
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	width:100%;
+	background: url('images/diamond2.png') top left;
+	height: 100%;
+		background-color:rgba(255, 255, 255, .3);
+
+}
+header {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.universal_wrap {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#logo {
+	float: left;
+	margin-right:-.5em;
+	margin-top:40px;
+	
+
+}
+.logo_img {
+	overflow: hidden;
+	width: 40%;
+
+}
+#brand_name {
+	float: left;
+	text-align: right;
+	margin-top: 100px;
+}
+#brand_name > h2 {
+	font-size: 12px;
+
+}
+#wrapper {
+	width: 90%;
+	margin:0 auto;
+	overflow:hidden;
+}
+.info{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #282828;
+	border-bottom: 3px solid #cccccc;
+	padding-top: 10px;
+	padding-left: 1em;
+}
+.info > ul {
+	list-style-type: none;
+	margin-left:50px;
+	color:white;
+
+
+}
+.info >ul>li {
+	padding:5px;
+}
+b {
+	color: gray;
+}
+.copyright > p {
+  color: black;
+    font-family: "contrail one";
+    font-size: 16px;
+    margin: 0;
+    padding-top: 8px;
+    text-align: center
+}
+footer {
+
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom:20px;
+	background-color: rgba(250, 250, 250, .1);
+}
+
+.footer_ul {
+	margin: 0 auto;
+	/*padding: 20px 70px 20px 50px;*/
+	list-style-type: none;
+}
+.footer_ul > li {
+	font-family: "Contrail one";
+	font-size: 22px;
+	font-weight: 100;
+	margin: 0;
+	display: inline;
+	line-height: 18px;
+	padding: 15px 45px 5px 45px;
+}
