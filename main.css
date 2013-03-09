@@ -42,6 +42,7 @@ header {
 	border-bottom: 3px solid #cccccc;
 	padding-top: 10px;
 	padding-left: 10px;
+	overflow:hidden;
 }
 nav {
 	margin: 0;
@@ -73,12 +74,13 @@ nav > ul > li > a:hover {
 }
 
 section {
+	clear:both;
 	width:50%;
 	height:100%;
 	float:right;
 	font-family:"helvetica neue";
 	margin: 0 auto;
-	/*overflow:hidden;*/
+	overflow:hidden;
 	background-color:rgba(255,255,255,.3);
 	padding:10px 10px 10px 50px;
 	
@@ -87,7 +89,13 @@ section > p {
 	
 }
 
+.facebook{
+	float:right;
+	overflow:hidden;
+		background-color:rgba(255,255,255,.5);
+		margin-top:-100px;
 
+}
 section > h1 {
 	padding:10px;
 }
