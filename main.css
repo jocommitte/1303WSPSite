@@ -84,15 +84,11 @@ section {
 
 	
 }
-iframe {
-	/*border: medium none ;*/
-	 overflow: hidden; 
-	 width: 292px; 
-	 height: 427px;
-	 background-color:white;
-}
-.facebook {
+
+.fb-like-box{
 	margin: 2px;
+	float:right;
+	padding:20px;
 
 }
 section > h1 {
