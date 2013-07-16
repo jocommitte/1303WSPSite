@@ -1,47 +1,83 @@
 /*
-Responsive 996px grid system ~ Style CSS.
-Copyright 2013, Josh Cope
-*/
+ Responsive 996px grid system ~ Style CSS.
+ Copyright 2013, Josh Cope
+ */
 
 /* =============================================================================
-   Site Styles
-   ========================================================================== */
+ Site Styles
+ ========================================================================== */
 
 /* =============================================================================
-   Page Styles
-   ========================================================================== */
+ Page Styles
+ ========================================================================== */
+body {
+    background-image: url ("backgroundTexture.jpg")no-repeat top left;
+}
+
+#nav_gallery {
+    width: 80px;
+}
+#nav_luxuries {
+    width: 90px;
+}
+#nav_tour {
+    width: 100px;
+}
+#nav_locations {
+    width: 90px;
+}
+#nav_floorplans {
+    width: 100px;
+}
+#nav_contact {
+    width: 70px;
+}
+#nav_reserve {
+    width: 120px;
+}
+textarea {
+    width: 26em;
+    height: 12em;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
 li {
-    color:black;
+    color: black;
 }
 /* =============================================================================
-   Media Queries
-   ========================================================================== */
+ Media Queries
+ ========================================================================== */
 
 /* Tablet Portrait size to Base 996px */
-@media only screen and (min-width: 768px) and (max-width: 995px) {}
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+}
 
 /* All Mobile Sizes */
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+}
 
 /* Mobile Landscape Size to Tablet Portrait */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
 
 /* Mobile Portrait Size to Mobile Landscape Size */
-@media only screen and (max-width: 479px) {}
-
+@media only screen and (max-width: 479px) {
+}
 
 /* =============================================================================
-   Font-Face
-   ========================================================================== */
+ Font-Face
+ ========================================================================== */
 /* This is the proper syntax for an @font-face file
 
-/* @font-face {
-font-family: 'FontName';
-src: url('../fonts/FontName.eot');
-src: url('../fonts/FontName.eot?iefix') format('embedded-opentype'),
-url('../fonts/FontName.woff') format('woff'),
-url('../fonts/FontName.ttf') format('truetype'),
-url('../fonts/FontName.svg#FontName') format('svg');
-font-weight: normal;
-font-style: normal; }
-*/
+ /* @font-face {
+ font-family: 'FontName';
+ src: url('../fonts/FontName.eot');
+ src: url('../fonts/FontName.eot?iefix') format('embedded-opentype'),
+ url('../fonts/FontName.woff') format('woff'),
+ url('../fonts/FontName.ttf') format('truetype'),
+ url('../fonts/FontName.svg#FontName') format('svg');
+ font-weight: normal;
+ font-style: normal; }
+ */
