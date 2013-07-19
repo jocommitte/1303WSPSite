@@ -11,7 +11,7 @@
  Page Styles
  ========================================================================== */
 body {
-    background-image: url ("backgroundTexture.jpg")no-repeat top left;
+    background: url("images/backgroundTexture.jpg");
 }
 
 #nav_gallery {
@@ -33,7 +33,7 @@ body {
     width: 70px;
 }
 #nav_reserve {
-    width: 120px;
+    width: 130px;
 }
 textarea {
     width: 26em;
