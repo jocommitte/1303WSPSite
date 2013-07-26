@@ -21,7 +21,7 @@
  }
  .cont{
      background:url(../images/blackbox.jpg);
-     height:800px;
+     height:850px;
  }
  .leftacc{
 overflow:hidden;
@@ -111,8 +111,8 @@ h1{
 }
 .heading{
     padding-top:30px;
-     font-size:74px;
-    font-family: 'EB Garamond', serif;
+     font-size:45px;
+    font-family: 'Antic Didone', serif;
  }
  #homePic{
      margin: 0 auto;
@@ -134,16 +134,14 @@ img.homebar{
      color:white;
  }
  ul{
-     text-align:center;
-    
+     /*text-align:center;*/    
  }
  footer{
      display:inline;
-     margin-top:20px;
      margin-bottom:10px
      horizontal:center;
-     padding-top:100px
- }
+     padding-top:10px;
+     padding-left:13em; }
  @font-face
 {
 font-family: myFirstFont;
@@ -158,6 +156,7 @@ src: url(Formata.otc);
      padding-left:20px;
      display:inline;
      padding-top:30px;
+     vertical-align:middle;
  }
 .ui-accordion .ui-accordion-header{
      width:300px;
