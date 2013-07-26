@@ -16,7 +16,9 @@ header {
 	overflow: hidden;
 	text-align: center;
 }
-
+a:hover{
+    color:blue;
+}
 #logo {
 	float: left;
 	margin-right: 20px;

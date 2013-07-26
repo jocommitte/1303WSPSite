@@ -10,10 +10,169 @@
 /* =============================================================================
  Page Styles
  ========================================================================== */
-body {
-    background: url("images/backgroundTexture.jpg");
+ body{
+      margin: 0 auto;     
+      width:100%;
+      background:url(../images/backgroundTextureLight.jpg) no-repeat;
+      height:100%;
+      
+     
+ }
+ #home {
+     margin: 0 auto;     
+      width:100%;
+      background:url(../images/backgroundTexture.jpg) no-repeat;
+      height:100%;
+      
+ }
+ a:hover {
+     color:blue;
+ }
+ #contactText {
+     
+    font-size: 17px;
+    font-family: 'FrankGothX',arial,helvetica;
+    color: rgb(255, 255, 255);
+    width: 205px;
+    position: absolute;
+    top: 90px;
+    left: 215px;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: center;
+    }
+ .blackBox1{
+     height:810px;
+     position:absolute;
+     width:960px;
+ }
+ #galLeft{
+     height:500px;
+     overflow:hidden;
+ }
+#saying{
+    font-size:30px;
+     font-family:'Helvetica';
+     color:#dcada0;
+     font-weight:lighter;
+     padding:0;
+     margin:0;
+    padding-top:20px;
+    padding-bottom:10px;
+    text-align:center;
+   
 }
+.floorplan{
+    color:white;
+}
+.
+#browse {
+    border-top:1px solid white;
 
+}
+.blackBox{
+    position:absolute;
+    height:790px;
+    width:966px;
+    
+}
+#floorPic{
+    
+}
+h1{
+    padding:0;
+    margin:0;
+}
+.icons {
+    width:30px;
+    padding-left:10px;
+    margin:0;
+}
+#lake {
+    margin:0 auto;
+    position:absolute;
+    width:1023px;
+    height:770px;
+    display:block;
+    overflow:hidden;
+}
+.logo {
+}
+.heading{
+    padding-top:50px;
+     font-size:74px;
+    font-family: 'EB Garamond', serif;
+ }
+.homebar{
+     width:1023px;
+    display:block;
+    overflow:hidden;
+    margin-left:20px;
+    margin-top:260px;
+ }
+ .otherHeading{
+     color:#d6b4aa;
+     padding-top:50px;
+     font-size:74px;
+    font-family: 'EB Garamond', serif;
+ }
+ .otherPages li a {
+     color:white;
+ }
+ ul{
+     text-align:center;
+    
+ }
+ footer{
+     padding-top:10px;
+     padding-bottom:10px;
+     position:relative;
+ }
+ @font-face
+{
+font-family: myFirstFont;
+src: url(Formata.otc);
+}
+ .footerIcon {
+     padding-left:50px;
+ }
+ .social{
+     padding:0;
+     margin:0;
+     padding-left:20px;
+     display:inline;
+     margin-top:30px;
+ }
+ 
+li{
+    padding-left:20px;
+    text-decoration:none;
+    display:inline;
+    font-family:"myFirstFont";
+    font-size:20px;
+}
+ .footerwriting{
+     color:white;
+     font-family:Helvetica;
+    display:inline;
+     font-size:16px;
+     padding-left:40px;
+ }
+ .features{
+     margin:0;
+     padding:0;
+     background-color:gray;
+     border:1px solid black;
+     text-align:center;
+     color:black;
+     font-family:"Helvetica";
+ }
+header {
+    position:relative;
+}
+section{
+    position:relative;
+}
 #nav_gallery {
     width: 80px;
 }
@@ -40,12 +199,11 @@ textarea {
     height: 12em;
 }
 a {
+    color:black;
     text-decoration: none;
     font-size: 18px;
 }
-li {
-    color: black;
-}
+
 /* =============================================================================
  Media Queries
  ========================================================================== */
