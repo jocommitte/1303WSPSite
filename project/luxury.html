@@ -1,38 +1,31 @@
+
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en">
-    <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-        <title>Cascada Luxuries</title>
-        <meta name="description" content="">
-        <meta name="author" content="">
-
-        <meta name="viewport" content="width=device-width">
-
-        <link rel="stylesheet" href="css/normalize.css">
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>jQuery UI Accordion - Default functionality</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/base.css">
 
         <link rel="stylesheet" href="css/grid.css">
         <link rel="stylesheet" href="css/style.css">
-
-        <script src="js/modernizr-2.6.2.min.js"></script>
-
-    </head>
-    <body>
-        <div class="container clearfix">
-            <div>
-                <img class="blackBox" src="images/blackbox.jpg" width="960px"/>
-            </div>
-            <div class="clear"> </div>
+        
+    <script>
+    $(function() {
+        $( "#accordion" ).accordion();
+    });
+    </script>
+</head>
+<body>
+<div class="container cont clearfix" >
+            
             <header>
                 <div class="grid_2">
-                    <a href="index.html"><img class"logo" src="images/cascada no background.png"  /></a>
+                    <a href="index.html"><img class"logo" src="images/cascada-no-background.png"  /></a>
                 </div>
                 <div class="grid_9">
                     <h1 class="otherHeading">Cascada at Lake Lucerne</h1>
@@ -65,108 +58,56 @@
                     </li>
                 </ul>
             </header>
-            <section class="floorplan grid_12 alpha">
-           
-            <div class="grid_4 prefix_4">
-                <h1 style="margin-top: -20px;">Cascada Luxuries</h1>
-            </div>
-            <div class="clear"> </div>
-            <div class="grid_6 alpha omega">
-                <h2 class="features">Rooftop Terrace and Courtyards</h2>
-                <h2 class="features">Unit Features</h2>
-                <h2 class="features">Clubhouse/ Amenities</h2>
-                <h2 class="features">Cascada Lifestyle</h2>
-                <h2 class="features">Green Attributes</h2>
-                <h2 class="features">Frequently Asked Questions</h2>
-                <textarea cols="70" rows="12" >
-
-ROOFTOP TERRACE &amp; COURTYARDS:
+<section class="floorplan">
+<div style="float:left; width:350px;overflow:hidden;"  id="accordion">
+    <h3>Rooftop Terrace and Courtyards</h3>
+    
+    <div>
+        <p>
+        ROOFTOP TERRACE &amp; COURTYARDS:
     Roof top terrace seating area with panoramic city views
     Elevated courtyard with salt water pool/tanning ledge and barbecue area (views of the Buckhead skyline)
     A second elevated courtyard with a fire pit, bocce court, landscaped gardens (views of Buckhead skyline)
 
-UNIT FEATURES:
-
-    Large open floor plans that maximize views, light and living space
-    Direct TV, AT &amp; T cable TV and high speed Internet access
-    Washer. 
-    Culinary kitchens – Kashmir white granite counter tops, islands and peninsulas, pendent lighting, Maple cabinetry with over sized stainless steel pulls, and side by side Whirlpool ENERGY STAR® stainless steel appliances with ice and filtered water dispenser.
-    10 foot ceilings
-    Designer mouldings in all units
-    Elegant baths with porcelain tile and maple cabinetry.
-    Beautiful flooring – Bruce® Springdale Gunstock hardwood flooring in kitchen and living areas, Shaw White Fox carpeting in bedrooms.
-    Stylish accents – two-tone paints scheme, designer lighting, 2″ designer blinds, 8 foot unit entry doors
-    Generous closet space
-    Private balcony
-    
-CLUBHOUSE/AMENITIES:
-
-    Cyber café with Starbucks coffee lounge
-    Fully equipped fitness center with interactive cycling
-    Club Room with TV lounge and kitchen/bar
-    Business center with computers, printer ,copy, and fax.
-    Reserve the night at our guest suite for visitors.
-    A limited number of furnished office suites are available for rent exclusively by our residents.
-    Conditioned storage of various sizes available for rent
-    Abundant bike storage
-    Wi-fi enabled amenity areas
-    Pet park
-
-92 WEST PACES LIFESTYLE:
-
-    92 West Paces provides a resort lifestyle while being in the best location in Buckhead. 
-    Bordering 92 West Paces is the newest and finest five star hotel in Buckhead, the St. Regis. 
-    92 West Paces and the St. Regis are part of a development known as Buckhead Plaza. 
-    A few of the many conveniences offered the residents of 92 West Paces are as follows:
-    Newest luxury high-rise building in Buckhead
-    After hours dry cleaning and package drop off and pickup
-    Easily accessed abundant parking all located beneath the building.
-    Controlled building access
-    Quiet hours 11 pm to 7am
-    92 West Paces prohibits smoking by residents and guests inside apartment homes and throughout the community, creating a healthy living environment for our residents
-    24/7 taxi cab service at St. Regis
-    Whole Foods located directly across the street from the St. Regis and offers some of the finest fresh foods available
-    Bordering 92 West Paces to the northwest are establishments such as “Flywheel”, a dedicated indoor cycling fitness center, “Drybar”, a unique hair styling salon, “Lucy’s Market” and “STG Trattoria”, an upscale pizza and pasta restaurant.
-
-GREEN ATTRIBUTES:
-
-    Energy star appliances
-    An urban walkable community close to all services and shopping reduces the reliance on automobiles
-    Convenient recycling program with a dedicated recycling chute that promotes recycling
-    Energy efficient lighting, heating and air conditioning systems
-    Water saving devices throughout the community
-    Concrete floors at 92 West Paces reduce energy demand, minimize airborne pollutants and lower sound transmission
-    A smoke free community promoting a healthy living environment
-    Electric car charging stations
-    Energy efficient windows, moisture and insulation barriers, and roofing materials reduce heating and air conditioning costs
-    Formaldehyde free cabinetry improves indoor air quality
-    Xeriscape landscaping reduces demand for water
-    Salt water pool
-
-FREQUENTLY ASKED QUESTIONS (FAQ):
-
-    How do I apply for an apartment?
-    What fees do I have to pay when I apply?
-    Do you charge any other fees at the time of move-in?
-    Are any of the fees refundable?
-    If I cancel my application, are the Application/Administrative fees refundable?
-    Do you accept pets? And, if so, what are the restrictions and fees?
-    Will I have to pay for parking?
-    I have an electric car, so do you have charging stations available?
-    What utilities are included with my lease?
-    How long is the term of the lease? Do you accept short term leases?
-    I am moving from a large house, and need additional storage for my furniture. Do you have storage available on-site?
-    Is a washer/dryer included with the apartment?
-    When is my rent due each month? Where do I pay rent?
-    Will you accept packages/deliveries for me if I am not home?
-    
-</textarea>
-
-            </div>
-            <div class="grid_6  omega">
+        </p>
+    </div>
+    <h3>Section 2</h3>
+    <div>
+        <p>
+        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+        suscipit faucibus urna.
+        </p>
+    </div>
+    <h3>Section 3</h3>
+    <div>
+        <p>
+        Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+        Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+        ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+        lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+        </p>
+    </div>
+    <h3>Section 4</h3>
+    <div>
+        <p>
+        Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+        et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+        faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+        mauris vel est.
+        </p>
+        <p>
+        Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+        inceptos himenaeos.
+        </p>
+    </div>
+</div>
+<div style="float:clear; overflow:hidden"  class="grid_8 alpha  omega">
                 <img src="images/lux101.jpg" alt="Sophisticated LifeStyle" />
             </div>
-            <!-- <div class="grid_2 alpha omega" style="width: 120px">
+            <!-- <div class="grid_2 alpha omega">
                 <img src="images/lux09.jpg"   alt="Luxury Residences" />
             </div>
             <div class="grid_2 alpha omega" style="width: 120px" >
@@ -178,22 +119,10 @@ FREQUENTLY ASKED QUESTIONS (FAQ):
             <div class="grid_2 alpha omega" style="width: 120px">
                 <img src="images/lux121.jpg" alt="Exclusive Locations" />
             </div> -->
-            <!-- <div class="grid_2 alpha omega prefix_5">
-                <img src="images/lux09.jpg"   alt="Luxury Residences" />
-            </div> -->
-            <div class="grid_2 prefix_5 alpha"  >
-                <img  src="images/lux.jpg"  alt="Exclusive Locations" style="border-top:2px solid black" />
-            </div>
-            <div class="grid_2 ">
-                <img src="images/lux101.jpg" alt="Luxury Residences" style="border-top:2px solid black" />
-            </div>
-            <div class="grid_2 omega" >
-                <img  src="images/lux121.jpg" alt="Exclusive Locations" style="border-top:2px solid black" />
-            </div>
-
-            <div class="clear"> </div>
-            </section>
-            <footer>
+<div class"clear"></div>
+</section>
+        </div>
+<footer>
                 <ul class="social">
                     <li class="icons">
                         <a href="http://facebook.com"> <img  src="images/icon-fb.png" width="30" /></a>
@@ -218,10 +147,5 @@ FREQUENTLY ASKED QUESTIONS (FAQ):
                 </ul>
             </footer>
 
-
-        </div>
-
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-        <script src="js/scripts.js"></script>
-    </body>
+</body>
 </html>

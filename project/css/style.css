@@ -12,19 +12,33 @@
  ========================================================================== */
  body{
       margin: 0 auto;     
-      width:100%;
       background:url(../images/backgroundTextureLight.jpg) no-repeat;
       height:100%;
+      width:100%;
       
      
+ 
+ }
+ .cont{
+     background:url(../images/blackbox.jpg);
+     height:800px;
+ }
+ .leftacc{
+overflow:hidden;
+ }
+ .calls{
+     width:500px;
+ }
+ #container{
+     background:url(../images/lakePhoto.jpg) no-repeat;
+     width:1024px;
  }
  #home {
      margin: 0 auto;     
-      width:100%;
       background:url(../images/backgroundTexture.jpg) no-repeat;
       height:100%;
-      
- }
+      width:100%;
+  }
  a:hover {
      color:blue;
  }
@@ -52,16 +66,15 @@
  }
 #saying{
     font-size:30px;
-     font-family:'Helvetica';
+     font-family:Helvetica;
      color:#dcada0;
-     font-weight:lighter;
+     font-weight:100;
      padding:0;
      margin:0;
-    padding-top:20px;
-    padding-bottom:10px;
-    text-align:center;
-   
-}
+     margin-top:700px;
+     margin-bottom:40px;
+     text-align:center;
+   }
 .floorplan{
     color:white;
 }
@@ -77,7 +90,7 @@
     
 }
 #floorPic{
-    
+    margin-left:25px;
 }
 h1{
     padding:0;
@@ -89,26 +102,27 @@ h1{
     margin:0;
 }
 #lake {
-    margin:0 auto;
     position:absolute;
-    width:1023px;
-    height:770px;
+    width:996px;
     display:block;
     overflow:hidden;
 }
 .logo {
 }
 .heading{
-    padding-top:50px;
+    padding-top:30px;
      font-size:74px;
     font-family: 'EB Garamond', serif;
  }
-.homebar{
-     width:1023px;
+ #homePic{
+     margin: 0 auto;
+ }
+img.homebar{
     display:block;
     overflow:hidden;
-    margin-left:20px;
-    margin-top:260px;
+    margin-top:16em;
+    width:996px;
+    
  }
  .otherHeading{
      color:#d6b4aa;
@@ -124,9 +138,11 @@ h1{
     
  }
  footer{
-     padding-top:10px;
-     padding-bottom:10px;
-     position:relative;
+     display:inline;
+     margin-top:20px;
+     margin-bottom:10px
+     horizontal:center;
+     padding-top:100px
  }
  @font-face
 {
@@ -141,9 +157,11 @@ src: url(Formata.otc);
      margin:0;
      padding-left:20px;
      display:inline;
-     margin-top:30px;
+     padding-top:30px;
  }
- 
+.ui-accordion .ui-accordion-header{
+     width:300px;
+ }
 li{
     padding-left:20px;
     text-decoration:none;
@@ -166,12 +184,11 @@ li{
      text-align:center;
      color:black;
      font-family:"Helvetica";
+     width:100%;
  }
 header {
-    position:relative;
 }
 section{
-    position:relative;
 }
 #nav_gallery {
     width: 80px;
@@ -203,6 +220,9 @@ a {
     text-decoration: none;
     font-size: 18px;
 }
+a:hover {
+    color:blue;
+}
 
 /* =============================================================================
  Media Queries
@@ -210,10 +230,20 @@ a {
 
 /* Tablet Portrait size to Base 996px */
 @media only screen and (min-width: 768px) and (max-width: 995px) {
+    .heading{
+        font-size:54px;
+    }
+    
 }
 
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
+    .logo{
+        width:100px;
+    }
+    .heading{
+        font-size:33px;
+    }
 }
 
 /* Mobile Landscape Size to Tablet Portrait */
