@@ -14,10 +14,10 @@
       margin: 0 auto;     
       background:url(../images/backgroundTextureLight.jpg) no-repeat;
       height:100%;
-      width:100%;
+      
   
  }
- .otherPages li a:hover{
+ .otherPages > li > a:hover{
      color:white;
  }
  .cont{
@@ -199,6 +199,11 @@ li{
 header {
 }
 section{
+    
+    
+    
+    
+    
 }
 #nav_gallery {
     width: 80px;
