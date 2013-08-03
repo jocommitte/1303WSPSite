@@ -17,8 +17,8 @@
       width:100%;
   
  }
- .otherPages > a:hover{
-     color:#a9a9a9;
+ .otherPages li a:hover{
+     color:white;
  }
  .cont{
      background:url(../images/blackbox.jpg);
@@ -31,7 +31,6 @@ overflow:hidden;
      width:500px;
  }
  #container{
-      
      background:url(../images/lakePhoto.jpg) no-repeat;
      width:1024px;
     
@@ -42,7 +41,7 @@ overflow:hidden;
       height:100%;
       width:100%;
   }
- #home > a:hover {
+ a:hover {
      color:blue;
  }
  #contactText {
@@ -51,9 +50,9 @@ overflow:hidden;
     font-family: 'FrankGothX',arial,helvetica;
     color: rgb(255, 255, 255);
     width: 205px;
-    position: relative;
-    top: 10em;
-    left: 20em;
+    position: absolute;
+    top: 302px;
+    left: 450px;
     line-height: 1;
     letter-spacing: 1px;
     text-align: center;
@@ -137,7 +136,7 @@ img.homebar{
      font-size:74px;
     font-family: 'EB Garamond', serif;
  }
- .otherPages > li > a {
+ .otherPages li a {
      color:white;
  }
  ul{
