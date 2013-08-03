@@ -15,9 +15,10 @@
       background:url(../images/backgroundTextureLight.jpg) no-repeat;
       height:100%;
       width:100%;
-      
-     
- 
+  
+ }
+ .otherPages > a:hover{
+     color:#a9a9a9;
  }
  .cont{
      background:url(../images/blackbox.jpg);
@@ -30,8 +31,10 @@ overflow:hidden;
      width:500px;
  }
  #container{
+      
      background:url(../images/lakePhoto.jpg) no-repeat;
      width:1024px;
+    
  }
  #home {
      margin: 0 auto;     
@@ -39,7 +42,7 @@ overflow:hidden;
       height:100%;
       width:100%;
   }
- a:hover {
+ #home > a:hover {
      color:blue;
  }
  #contactText {
@@ -48,9 +51,9 @@ overflow:hidden;
     font-family: 'FrankGothX',arial,helvetica;
     color: rgb(255, 255, 255);
     width: 205px;
-    position: absolute;
-    top: 302px;
-    left: 450px;
+    position: relative;
+    top: 10em;
+    left: 20em;
     line-height: 1;
     letter-spacing: 1px;
     text-align: center;
@@ -60,7 +63,13 @@ overflow:hidden;
      position:absolute;
      width:960px;
  }
- 
+ .lux{
+     float:left;
+     padding: 0;
+     margin: 0;
+     width: 114px;
+     overflow:hidden;  
+ }
 #saying{
     font-size:30px;
      font-family:Helvetica;
@@ -128,7 +137,7 @@ img.homebar{
      font-size:74px;
     font-family: 'EB Garamond', serif;
  }
- .otherPages li a {
+ .otherPages > li > a {
      color:white;
  }
  ul{
