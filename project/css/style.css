@@ -12,18 +12,25 @@
  ========================================================================== */
  body{
       margin: 0 auto;     
-      background:url(../images/backgroundTextureLight.jpg) no-repeat;
+      background:url(../images/backgroundTextureLight.jpg);
       height:100%;
       
   
  }
+ .otherPages {
+     margin:0 auto;
+     background:url(../images/backgroundTexture.jpg;);
+     height:100%; 
+ }
+ .otherHeading {
+     
+ }
  .otherPages > li > a:hover{
-     color:white;
+     color:blue;
  }
  .cont{
      background:url(../images/blackbox.jpg);
-     height:850px;
- }
+     height:850px; }
  .leftacc{
 overflow:hidden;
  }
@@ -70,15 +77,14 @@ overflow:hidden;
      overflow:hidden;  
  }
 #saying{
-    font-size:30px;
      font-family:Helvetica;
      color:#dcada0;
-     font-weight:100;
      padding:0;
      margin:0;
      margin-top:700px;
      margin-bottom:40px;
      text-align:center;
+     font-weight: thin;
    }
 .floorplan{
     color:white;
@@ -87,6 +93,9 @@ overflow:hidden;
 .
 #browse {
     border-top:1px solid white;
+    font-weight:100;
+    font-size; 16px;
+    
 
 }
 .blackBox{
@@ -235,7 +244,7 @@ a {
     text-decoration: none;
     font-size: 18px;
 }
-a:hover {
+ul>li>a:hover {
     color:blue;
 }
 
